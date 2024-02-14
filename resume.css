@@ -38,7 +38,7 @@ body {
     height: auto;
     width: 50%;
     max-width: 3.5in;
-    align-content: normal;
+    align-content: center;
     display: table-cell;
     border-style: outset;
 }
