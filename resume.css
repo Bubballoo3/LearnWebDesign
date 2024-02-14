@@ -42,6 +42,7 @@
 .par {
     font-weight: lighter;
     width: 80%;
+    margin-left: .5in;
     align-content: center;
 }
 
