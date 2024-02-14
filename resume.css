@@ -14,15 +14,20 @@
 */}
 
 /* Need to add tags and class when we get the chance */
+.img-holder{
+    width: 100%;
+}
 #img-desc {
-    height: auto;
     width: 20%;
     margin-left: 20%;
     align-content: center;
+    float: left;
+    vertical-align: middle;
 }
 #baby-pic {
     height: auto;
     width: 50%;
+    max-width: 3.5in;
     margin-left: 40%;
     border-style: inset;
 }
