@@ -26,7 +26,7 @@
 #img-desc {
     width: 20%;
     margin-left: 20%;
-    align-items: center;
+    text-align: justify;
     display: table-cell;
     vertical-align: middle;
 }
