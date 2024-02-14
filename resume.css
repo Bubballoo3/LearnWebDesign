@@ -1,16 +1,19 @@
 
 * {
     background-color: darkolivegreen;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-title {
+.header {
     font-weight: 600;
-    color: forestgreen;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+    color: lightgoldenrodyellow;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+*/}
 
-img {
+/* Need to add tags and class when we get the chance */
+.img-holder {
     height: auto;
     width: fit-content;
 }
