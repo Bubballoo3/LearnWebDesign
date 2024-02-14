@@ -15,7 +15,8 @@
 /* Need to add tags and class when we get the chance */
 .img-holder {
     height: auto;
-    width: fit-content;
+    width: 2in;
+    align-content: center;
 }
 
 
