@@ -47,12 +47,29 @@ div.side-of-img-table-right {
     padding-left: 5%;
     max-height: fit-content;
 }
+
+[class^=link-table]{
+    font-size: x-large;
+    text-align: center;
+}
+.link-table-fillspace-middle{
+    width: 1in;
+}
+.link-table-fillspace-left{
+    width: .5vw;
+}
+.link-table-row{
+    font-weight: 500;
+}
+.link-table-header{
+    font-size: larger;
+}
 .centered-container{
     margin-left: auto;
     margin-right: auto;
     width: max-content;
 }
-.CW-table-holder {
+[class$=-table-holder] {
     align-self: center;
 }
 
@@ -82,7 +99,9 @@ span.additional{
     font-size: smaller;
     text-align: right;
 }
-
+span.bold{
+    font-weight:400;
+}
 
 p.img-desc {
     padding-left: 2%;
@@ -113,6 +132,15 @@ p.img-desc {
     display: table-cell;
     /* border-style: outset; */
 }
-
-/* Specific Guides for classwork.html */
+#bio{
+    font-size: calc(12px + 2vw);
+    min-width: 2.5in ;
+}
+/* Specific Guides for research.html */
+#poster-pic{
+    width: 40vw;
+    min-width: 3.5in;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
 
