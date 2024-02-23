@@ -3,71 +3,69 @@
 
   <head>
     <meta charset="UTF-8">
-    <title> Braeden's Webpage </title>
-    <link rel="stylesheet" href="resume.css">
+    <title> Braeden Singleton </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootsyresume.css">
   </head>
 
-  <body>
-
-    <h1 class="header header1"> About Me</h1>
-  
-    <div class="table-holder">
-      <div class="tables">
-        <div class="side-of-img-table-left">
-          <div>
-            <img id="baby-pic" src="images/IMG_4411.JPG" alt="Me and Baby">
-            <p class="par img-desc" id="baby-pic-desc"> 
-              A photo of me and my wonderful girlfriend
-            </p>
-          </div>
+  <body class="bg-darkolivegreen">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-darkgreen">
+      <div class="container-fluid bg-darkgreen">
+        <a class="navbar-brand logo" href="#">Braeden Singleton</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse bg-darkgreen" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bootcwork.html">Coursework</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bootcresearch.html">Research</a>
+            </li>
+          </ul>
         </div>
-        <div class="side-of-img-table-right">
-          <p class="par" id="bio"> 
+      </div>
+    </nav>
+    <div class="container-lg text-left">
+      <div class="row">
+        <h1 class="display-3 align-w-figure">
+            About Me
+        </h1>
+      </div>  
+      <div class="row"> 
+        <div class="col-md-5 text-center">
+          <figure class="figure">
+            <img src="images/IMG_4411.JPG" 
+                class="figure-img img-fluid" 
+                alt="Me and Baby">
+            <figcaption class="text-center">
+              <em>Me and my lovely girlfriend</em>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">
             My name is Braeden Singleton, and I am a student at 
             <a href = "https://kenyon.edu/" target="_blank" rel="noopener noreferrer" > 
-              Kenyon College
-            </a>.
+              Kenyon College.
+            </a>
             I am a Mathematics and Classics double major, graduating in 2025. 
             I am also the lead archivist on the 
             <a href="https://vrc.kenyon.edu/collections/baly/" target="_blank" rel="noopener noreferrer"> 
-              Denis Baly Slide Collection
-            </a>.
+              Denis Baly Slide Collection.
+            </a>
             When not at Kenyon, I can often be found in my hometown, Columbus, OH.
           </p>
         </div>
       </div>
+      <footer class="pt-3 mt-4 text-muted border-top">
+        © 2024
+      </footer>
     </div>
-
-    <div class="link-table-holder centered-container">
-      <table class="link-table">
-        <tr>
-          <caption class="link-table-header par"> 
-            More Information
-          </caption>
-        </tr>
-        <tr class="link-table-row">
-          <td class="link-table-fillspace-left">
-          </td>
-          <td>
-            <h3>
-              <a href="classwork.html" target="_blank" rel="noopener noreferrer"> 
-                Coursework 
-              </a>
-            </h3> 
-          </td>
-          <td class="link-table-fillspace-middle">
-          </td>
-          <td>
-            <h3>
-              <a href="research.html" target="_blank" rel="noopener noreferrer">
-                Research Experience   
-              </a>
-            </h3>
-          </td>
-        </tr>
-      </table>
-      <h2 class="header link-header"> 
-
-      </h2>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
+
